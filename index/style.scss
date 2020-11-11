@@ -24,12 +24,17 @@
         font-size: 25px;
         color: red;
         position: absolute;
-       // top: 50%;
-       // left: 50%;
-       // transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
-    .cube_face {
-        font-size: 26px;
+    .cube_face > i {
+        font-size: 30px;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
         color: rgb(8, 8, 8);
+        transition: bottom .3s;
     }
 }
